@@ -1,0 +1,23 @@
+import { Product } from './App';
+
+// ── Product Data ───────────────────────────────────────────────────────────
+export const PRODUCTS: Product[] = [
+  { id: 1, name: 'Floral Wrap Dress', brand: 'Zara', price: 1299, originalPrice: 2499, category: 'Women', subCategory: 'Dresses', image:'/images/images/women/jumpsuits/floral-jumpsuit.jpg', rating: 4.5, reviews: 312, isNew: true },
+  { id: 2, name: 'Slim Fit Chinos', brand: 'H&M', price: 899, originalPrice: 1799, category: 'Men', subCategory: 'Trousers', image: '/images/images/men/trousers/slim-fit-chinos.jpg', rating: 4.6, reviews: 95 },
+  
+  { id: 5, name: 'Graphic Print Tee', brand: 'Flying Machine', price: 599, originalPrice: 999, category: 'Men', subCategory: 'T-Shirts', image: '/images/images/men/shirts/linen-shirt.jpg', rating: 4.3, reviews: 256 },
+  { id: 6, name: 'Denim Dungaree', brand: 'H&M Kids', price: 699, originalPrice: 1299, category: 'Kids', subCategory: 'Dungarees', image: '/images/images/kids/dungarees/denim-dungaree.jpg', rating: 4.4, reviews: 143 },
+  { id: 7, name: 'Boho Midi Skirt', brand: 'Mango', price: 1499, originalPrice: 2999, category: 'Women', subCategory: 'Skirts', image: '/images/images/women/skirts/boho-midi-skirt.jpg', rating: 4.8, reviews: 367 },
+  { id: 8, name: 'Linen Shirt', brand: 'Louis Philippe', price: 1299, originalPrice: 2499, category: 'Men', subCategory: 'Shirts', image: '/images/images/men/shirts/linen-shirt.jpg', rating: 4.5, reviews: 201 },
+
+  { id: 10, name: 'Jogger Pants', brand: 'Puma', price: 1199, originalPrice: 2199, category: 'Men', subCategory: 'Activewear', image: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSuC7UMOyDUrDiQHbxNg0I6ajPIuqqS077oK6kHL4F2XzYT53LO79KhdZFLq6Yb1xIE_eTQ_VYX2sopQxOTn9qnzfOdH_dZhfkZ4WWSxWRJNNweK3GI_CcbdQ', rating: 4.4, reviews: 334 },
+  { id: 11, name: 'Frock with Bow', brand: 'Mothercare', price: 549, originalPrice: 999, category: 'Kids', subCategory: 'Frocks', image: '/images/images/kids/frocks/frock-with-bow.jpg', rating: 4.7, reviews: 212 },
+  { id: 12, name: 'Blazer Jacket', brand: 'Marks & Spencer', price: 2499, originalPrice: 4999, category: 'Women', subCategory: 'Jackets', image: '/images/images/women/outerwear/oversized-hoodie.jpg', rating: 4.9, reviews: 89 },
+ { id: 13, name: 'Floral Wrap Dress', brand: 'zara', price: 2499, originalPrice: 4999, category: 'Women', subCategory: 'Dresses', image: 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQDo3wdgVF8Sam2jIRhnwxICKVAFNxxsxjWpPOGWJTU6GulhDxjGGe1KqnUCdA-E9hVEeL8of7MX_aEJFoefl9BLw_KHDH7xoURTC4y', rating: 4.9, reviews: 89 },
+{ id: 14, name: 'Slim Fit Chinos', brand: 'H&M', price: 449, originalPrice: 799, category: 'Men', subCategory: 'Trousers', image: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSgj9K3VONUu-81vR2MicLlN3xZB32rXy-gTXOKmyst2L5FF4IRGeJfnTMSzGSYHyD-w2eZauYe8mS0VQhpR9_j8CcRpYivlM5XlfLxXQ', rating: 4.9, reviews: 89 },
+{ id: 15, name: 'Cartoon Print Tee', brand: 'UCB Kinds', price: 500, originalPrice: 650, category: 'Kinds', subCategory: 'T-Shirts', image: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRoK7MQOYO640q6ZFvvM11aqsSlPRSnEj7TF3z_h-HFaW4DTyMZ2FJ52xyXj-MG46sS7eU6DEFInDr6xq_pxPwySy-hwagNMUGTi0Axme6Aue2WC1Qu-w', rating: 4.9, reviews: 89 },
+{ id: 16, name: 'Classic Debim Jacket', brand: 'Levis', price: 1999, originalPrice: 2900, category: 'Men', subCategory: 'Jackets', image: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRGaiq1VyDAaVCZEcvQJBIw8UTI1y4cH5b0Piv_LG0qUFsbJcc4fljlSXbBhTc9j1ZhMTnBbFi_LU3HTLExBrJCR9lhwcFlRW_9e_unvsokgqemEqDRyw', rating: 4.9, reviews: 89 },
+{ id: 17, name: 'Graphic Print Tee', brand: 'Flying Machine', price: 2900, originalPrice: 4000, category: 'Kinds', subCategory: 'T-Shirts', image: 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRK6HqR3GPE4d322dQg5TANBRkuJNV-mMJYSpbXh0AdaK5FdXKzo2CyhXPhx4q2cv44nMkAkpoILOrWROXdWVhl6nn8QlLAc0pSLCIBEjjMgI2ABApBNOE', rating: 4.9, reviews: 89 },
+{ id: 18, name: 'Denim Dungaree', brand: 'H&M kinds', price: 599, originalPrice: 1160, category: 'Kinds', subCategory: 'Kinds', image: 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQQd1JrrHnbbi6QH1HQ8cES0Zd079zlDZXOPEwsSMY59qDW7bhBmBqkAFkKth4kwKIWy4LgFar3pzMgJEQ7I6ENFTtrzNH47yqFFquQV2mRZ8AouP7y_cg', rating: 4.9, reviews: 89 },
+{ id: 19, name: 'Floral Jumpsuits', brand: 'AND', price: 2499, originalPrice: 4999, category: 'Women', subCategory: 'Jumpsuits', image: '/images/images/women/jumpsuits/floral-jumpsuit.jpg', rating: 4.9, reviews: 89 },
+];
